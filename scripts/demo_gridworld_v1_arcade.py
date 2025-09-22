@@ -12,7 +12,7 @@ from src.engine.gridworld_renderer import GridworldV1Window, VizCfg
 
 if __name__ == "__main__":
     root = Path(__file__).resolve().parents[1]
-    cfg_path = root / "config" / "gridworld_v1.json"
+    cfg_path = root / "config" / "maze.json"
 
     env = GridworldV1.from_json(cfg_path)
 
